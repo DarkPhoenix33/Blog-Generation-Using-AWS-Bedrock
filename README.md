@@ -15,7 +15,7 @@ Following services are being used for this Project:
 5) AWS CloudWatch- Default logging of lambda functions 
 
 # Note:
-    We havbe created a custom layer for lambda function to utilize the latest version of boto3 library.
+    We have created a custom layer for lambda function to utilize the latest version of boto3 library.
     In order to create a custom layer you have to make a folder with name "python" and install all the dependencies inside that folder. For example in our case we will use:
     
     pip install boto3 -t python/
